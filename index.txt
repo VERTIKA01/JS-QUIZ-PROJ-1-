@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Java Script Quiz</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+	<!---start quiz button--->
+    <div class="start_btn"><button>START QUIZ</button></div>
+
+    <!---information box--->
+    <div class="info_box">
+    	<div class="info_title">
+    		<span>SOME IMPORTANT RULES</span>
+    	</div>
+    	<div class="info_list">
+    		<div class="info">1.Once you select the option,you can't change</div>
+    		<div class="info">2.You can't exit from the quiz while you are playing</div>
+    		<div class="info">3.Point will be awarded according to the correct answers</div>
+    	</div>
+    	<div class="buttons">
+    		<button class="quit">EXIT QUIZ</button>
+    		<button class="restart">CONTINUE</button>
+    	</div>
+    </div>
+
+    <!---Quiz box---->
+    <div class="quiz_box">
+    	<header>
+    		<div class="title">Awesome Quiz Application</div>
+    		<!--<div class="timer">
+    			<div class="time_text">Time Left</div>
+    			<div class="timer_sec">15</div>
+    		</div>-->
+    	</header>
+    	<section>
+    		<div class="que_text">
+    			<!---<span>Javascript is an _______ language?</span>-->
+    		</div>
+    		<div class="option_list">
+    			<!--<div class="option">
+    				<span>Object-Oriented</span>
+    				<div class="icon tick"><i class="fa fa-check"></i></i></div>
+    			</div>
+    			<div class="option">
+    				<span>Object-Based</span>
+    				<div class="icon cross"><i class="fa fa-times" ></i></div>
+    			</div>
+    			<div class="option">
+    				<span>Procedural</span>
+    			</div>
+    			<div class="option">
+    				<span>None of the above</span>
+    			</div>-->
+    		</div>
+    	</section>
+    	<!---Quiz box footer--->
+    	<footer>
+    		<div class="total_que">
+    			<!--<span><p>2 of 5 Questions </p></span>-->
+    		</div>
+    		<button class="next_btn">Next Question</button>
+    	</footer>
+    </div>
+ <!---result box--->
+ <div class="result_box">
+ 	<div class="icon">
+ 		<i class="fa fa-smile-o"></i>
+ 	</div>
+ 	<div class="complete_text">You've completed the Quiz!</div>
+ 	<div class="score_text">
+ 		<!--<span>and sorry, you got only 2 out of 5</span>-->
+ 	</div>
+ 	<div class="buttons">
+ 		<button class="restart">Replay Quiz</button>
+ 		<button class="quit">Quit Quiz</button>
+ 	</div>
+ </div>
+ <script src="js/script.js"></script>
+ <script src="js/questions.js"></script>
+</body>
+</html>
